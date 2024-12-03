@@ -1,8 +1,8 @@
 # Machine Learning Models Comparison
-## Comparison on various ML classification models using Sci-kit Learn, TensorFlow and Pytorch.
-## Comparison is based on Accuracy, Precision, Recall and F1 Score.
-## Cross-validation with multiple Sklearn algorithms is also illustrated.
-### Model tuning: GridSearchCV is used for finding the optimal values of hyperparameters to maximize model performance on Sklean models.
+* Comparison on various ML classification models using Sci-kit Learn, TensorFlow and Pytorch.
+* Comparison is based on Accuracy, Precision, Recall and F1 Score.
+* Cross-validation with multiple Sklearn algorithms is also illustrated.
+* Model tuning: GridSearchCV is used for finding the optimal values of hyperparameters to maximize model performance on Sklean models.
 
 # Models for comparison:
 * Linear Discriminant Analysis
@@ -24,23 +24,23 @@
 
 # EDA
 
-## Check unused columns for data cleaning
-![01](https://github.com/user-attachments/assets/428f1c77-f620-42c8-bdfe-4fc62192bb5e | width=400)
+* Check unused columns for data cleaning
+<img src="https://github.com/user-attachments/assets/428f1c77-f620-42c8-bdfe-4fc62192bb5e" width="400" />
 
-## Pie chart for diagnosis distribution
-![02](https://github.com/user-attachments/assets/5ef559a5-5118-4c82-aad8-40d01f0ecb54 | width=400)
+* Pie chart for diagnosis distribution
+<img src="https://github.com/user-attachments/assets/5ef559a5-5118-4c82-aad8-40d01f0ecb54" width="400" />
 
-## Count plot for Total Benign x Malignant Cells
-![03](https://github.com/user-attachments/assets/515b337c-a2d3-485d-bb12-a73f3579ebea | width=400)
+* Count plot for Total Benign x Malignant Cells
+<img src="https://github.com/user-attachments/assets/515b337c-a2d3-485d-bb12-a73f3579ebea" width="400" />
 
-## Scatter plot for malignant and benign
-![05](https://github.com/user-attachments/assets/1a5f32b2-9fa4-40f3-afa5-662394b9d5a5 | width=600)
+* Scatter plot for malignant and benign
+<img src="https://github.com/user-attachments/assets/1a5f32b2-9fa4-40f3-afa5-662394b9d5a5" width="600" />
 
-## Heatmap of correlation
-![07](https://github.com/user-attachments/assets/b9dd4a34-c03f-4850-af24-c082da0f8174 | width=800)
+* Heatmap of correlation
+<img src="https://github.com/user-attachments/assets/b9dd4a34-c03f-4850-af24-c082da0f8174" width="800" />
 
-## Boxplot for 4 chosen features
-![08](https://github.com/user-attachments/assets/b89c3051-0960-46f3-a6fd-bce8e1a10723 | width=600)
+* Boxplot for 4 chosen features
+<img src="https://github.com/user-attachments/assets/b89c3051-0960-46f3-a6fd-bce8e1a10723" width="600" />
 
 
 ## Data columns (1 of 3)
