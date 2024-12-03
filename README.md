@@ -19,16 +19,35 @@
 * Neural Network - Using Pytorch
 * Neural Network - Using TensorFlow
 
+## Models comparison table in terms of Accuracy, Precision, Recall and F1 Score
+```
+                              Accuracy  Precision    Recall  F1 Score
+ModelName                                                            
+Linear Discriminant Analysis  0.968085   1.000000  0.914286  0.955224
+Support Vector Machines       0.904255   1.000000  0.742857  0.852459
+SVM (GridSearchCV tuned)      0.936170   0.967742  0.857143  0.909091
+Decision Tree Classifier      0.909574   0.920635  0.828571  0.872180
+DTC (GridSearchCV tuned)      0.930851   0.967213  0.842857  0.900763
+KNN                           0.930851   0.983051  0.828571  0.899225
+KNN (GridSearchCV tuned)      0.941489   0.983607  0.857143  0.916031
+Random Forest                 0.962766   1.000000  0.900000  0.947368
+RF (GridSearchCV tuned)       0.962766   1.000000  0.900000  0.947368
+XGBoost                       0.968085   1.000000  0.914286  0.955224
+XGB (GridSearchCV tuned)      0.973404   1.000000  0.928571  0.962963
+PyTorch Neural Network        0.946809   0.983871  0.871429  0.924242
+TensorFlow Neural Network     0.930851   1.000000  0.814286  0.897638
+```
+
 # Dataset is downloaded from 
 * https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
 # EDA
 
 * Check unused columns for data cleaning
-<img src="https://github.com/user-attachments/assets/428f1c77-f620-42c8-bdfe-4fc62192bb5e" width="400" />
+<img src="https://github.com/user-attachments/assets/428f1c77-f620-42c8-bdfe-4fc62192bb5e" width="800" />
 
 * Pie chart for diagnosis distribution
-<img src="https://github.com/user-attachments/assets/5ef559a5-5118-4c82-aad8-40d01f0ecb54" width="400" />
+<img src="https://github.com/user-attachments/assets/5ef559a5-5118-4c82-aad8-40d01f0ecb54" width="200" />
 
 * Count plot for Total Benign x Malignant Cells
 <img src="https://github.com/user-attachments/assets/515b337c-a2d3-485d-bb12-a73f3579ebea" width="400" />
@@ -40,7 +59,7 @@
 <img src="https://github.com/user-attachments/assets/b9dd4a34-c03f-4850-af24-c082da0f8174" width="800" />
 
 * Boxplot for 4 chosen features
-<img src="https://github.com/user-attachments/assets/b89c3051-0960-46f3-a6fd-bce8e1a10723" width="600" />
+<img src="https://github.com/user-attachments/assets/b89c3051-0960-46f3-a6fd-bce8e1a10723" width="800" />
 
 
 ## Data columns (1 of 3)
@@ -143,25 +162,6 @@ Epoch: 1600 Loss 0.11050570011138916
 Epoch: 1700 Loss 0.10537530481815338
 Epoch: 1800 Loss 0.1008419543504715
 Epoch: 1900 Loss 0.09690515697002411
-```
-
-## Models comparison table in terms of Accuracy, Precision, Recall and F1 Score
-```
-                              Accuracy  Precision    Recall  F1 Score
-ModelName                                                            
-Linear Discriminant Analysis  0.968085   1.000000  0.914286  0.955224
-Support Vector Machines       0.904255   1.000000  0.742857  0.852459
-SVM (GridSearchCV tuned)      0.936170   0.967742  0.857143  0.909091
-Decision Tree Classifier      0.909574   0.920635  0.828571  0.872180
-DTC (GridSearchCV tuned)      0.930851   0.967213  0.842857  0.900763
-KNN                           0.930851   0.983051  0.828571  0.899225
-KNN (GridSearchCV tuned)      0.941489   0.983607  0.857143  0.916031
-Random Forest                 0.962766   1.000000  0.900000  0.947368
-RF (GridSearchCV tuned)       0.962766   1.000000  0.900000  0.947368
-XGBoost                       0.968085   1.000000  0.914286  0.955224
-XGB (GridSearchCV tuned)      0.973404   1.000000  0.928571  0.962963
-PyTorch Neural Network        0.946809   0.983871  0.871429  0.924242
-TensorFlow Neural Network     0.930851   1.000000  0.814286  0.897638
 ```
 
 ## Cross-validation with multiple Sklearn algorithms
