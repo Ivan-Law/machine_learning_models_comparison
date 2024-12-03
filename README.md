@@ -47,7 +47,7 @@ TensorFlow Neural Network     0.930851   1.000000  0.814286  0.897638
 <img src="https://github.com/user-attachments/assets/428f1c77-f620-42c8-bdfe-4fc62192bb5e" width="800" />
 
 * Pie chart for diagnosis distribution
-<img src="https://github.com/user-attachments/assets/5ef559a5-5118-4c82-aad8-40d01f0ecb54" width="200" />
+<img src="https://github.com/user-attachments/assets/5ef559a5-5118-4c82-aad8-40d01f0ecb54" width="300" />
 
 * Count plot for Total Benign x Malignant Cells
 <img src="https://github.com/user-attachments/assets/515b337c-a2d3-485d-bb12-a73f3579ebea" width="400" />
@@ -56,7 +56,7 @@ TensorFlow Neural Network     0.930851   1.000000  0.814286  0.897638
 <img src="https://github.com/user-attachments/assets/1a5f32b2-9fa4-40f3-afa5-662394b9d5a5" width="600" />
 
 * Heatmap of correlation
-<img src="https://github.com/user-attachments/assets/b9dd4a34-c03f-4850-af24-c082da0f8174" width="800" />
+<img src="https://github.com/user-attachments/assets/b9dd4a34-c03f-4850-af24-c082da0f8174" width="1000" />
 
 * Boxplot for 4 chosen features
 <img src="https://github.com/user-attachments/assets/b89c3051-0960-46f3-a6fd-bce8e1a10723" width="800" />
